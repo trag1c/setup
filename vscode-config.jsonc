@@ -1,0 +1,83 @@
+{
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 5,
+    "editor.fontLigatures": true,
+    "editor.guides.indentation": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.scale": 3,
+    "editor.minimap.showSlider": "always",
+    "editor.renderLineHighlight": "all",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "git.confirmSync": false,
+    "gitlens.views.branches.branches.layout": "list",
+    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.formatting.provider": "black",
+    "python.linting.flake8Args": [
+      "--max-line-length=88",
+      "--ignore=E203,W503"
+    ],
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "telemetry.telemetryLevel": "crash",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.cursorBlinking": true,
+    "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.inheritEnv": false,
+    "vscord.app.name": "Visual Studio Code",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "zenMode.centerLayout": false,
+    "svelte.enable-ts-plugin": true,
+    "ruff.args": [
+      "--select=F,E,W,I,UP,N,S,C,B,A,T,Q,RUF,YTT,BLE,ANN,FBT,PL,TRY,RSE,SLF,DTZ,EXE,ISC,ICN,G,INP,PIE,RET,SIM,TID,TCH,ARG,PTH,PERF,SLOT",
+      "--ignore=DTZ005,INP001,TCH003,ANN101,ANN102,ANN401,TID252,T201,B905,S101,TRY003,PLR2004"
+    ],
+    "codesnap.shutterAction": "copy",
+    "codesnap.boxShadow": "",
+    "codesnap.showWindowControls": false,
+    "git.enableCommitSigning": true,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.cursorBlinking": "phase",
+    "editor.letterSpacing": -0.25,
+    "editor.fontSize": 14,
+    "markdown.extension.toc.levels": "1..3",
+    "git.openRepositoryInParentFolders": "never",
+    "notebook.lineNumbers": "on",
+    "editor.rulers": [
+      80,  // markdown
+      // 88,  // python
+      // 100, // rust
+    ],
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.11",
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "github.copilot.advanced": {
+  
+    },
+    "explorer.compactFolders": false,
+    "workbench.tree.indent": 16,
+    "window.zoomLevel": 2
+  }

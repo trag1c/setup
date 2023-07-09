@@ -1,0 +1,11 @@
+theme = "base16_transparent"
+
+[editor]
+true-color = true
+idle-timeout = 0
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.lsp]
+display-messages = true
