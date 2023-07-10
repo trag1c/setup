@@ -1,6 +1,11 @@
 # `trag1c/setup`
 A collection of dotfiles, software and configs I use.
 
+- [Software](#software)
+- [VSCode extensions](#vscode-extensions)
+- [Python Tooling](#python-tooling)
+- [CLI Tools](#cli-tools)
+- [macOS Apps](#macos-apps)
 
 ## Software
 - Browser: [Arc](https://arc.net/) (with the [Refined GitHub](https://github.com/refined-github/refined-github) extension)
