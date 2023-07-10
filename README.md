@@ -34,7 +34,7 @@ A collection of dotfiles, software and configs I use.
 - Rust:
   - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) (from The Rust Programming Language)
 - Samarium:
-  - [Samarium Lanaguage](https://marketplace.visualstudio.com/items?itemName=Samarium.samarium-language) (from Samarium)
+  - [Samarium Language](https://marketplace.visualstudio.com/items?itemName=Samarium.samarium-language) (from Samarium)
 - Swift:
   - [apple-swift-format](https://marketplace.visualstudio.com/items?itemName=vknabel.vscode-apple-swift-format) (from vknabel)
   - [Swift](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) (from Swift Server Work Group)
