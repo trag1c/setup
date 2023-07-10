@@ -58,3 +58,13 @@ via homebrew and use the `use` command (see `.zshrc`) to "change" between versio
 - [ipython](https://ipython.readthedocs.io/en/stable/)
 
 I use `zsh` (macOS default) with [Oh My Zsh](https://ohmyz.sh/).
+
+
+## macOS Apps
+- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704)
+- [Clop](https://lowtechguys.com/clop/)
+- [Dropover](https://dropoverapp.com/)
+- [One Thing](https://sindresorhus.com/one-thing)
+- [Rectangle](https://rectangleapp.com/)
+- [Shottr](https://shottr.cc/)
+- [Stats](https://github.com/exelban/stats)
