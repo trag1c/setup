@@ -6,7 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export DISPLAY=:0
 
 # Theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Plugins
 plugins=(
