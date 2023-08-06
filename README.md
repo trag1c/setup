@@ -72,7 +72,7 @@ I use `zsh` (macOS default) with [Oh My Zsh](https://ohmyz.sh/).
 - [Clop](https://lowtechguys.com/clop/)
 - [Dropover](https://dropoverapp.com/)
 - [One Thing](https://sindresorhus.com/one-thing)
-- [Monitor Control](https://github.com/MonitorControl/MonitorControl)
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 - [Rectangle](https://rectangleapp.com/)
 - [Shottr](https://shottr.cc/)
 - [Stats](https://github.com/exelban/stats)
