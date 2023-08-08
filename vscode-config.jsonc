@@ -17,14 +17,8 @@
     "editor.stickyScroll.enabled": true,
     "git.confirmSync": false,
     "gitlens.views.branches.branches.layout": "list",
-    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.useLibraryCodeForTypes": true,
-    "python.formatting.provider": "black",
-    "python.linting.flake8Args": [
-      "--max-line-length=88",
-      "--ignore=E203,W503"
-    ],
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
     "telemetry.telemetryLevel": "crash",
@@ -40,7 +34,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
     "zenMode.centerLayout": false,
-    "svelte.enable-ts-plugin": true,
     "ruff.args": [
       "--select=F,E,W,I,UP,N,S,C,B,A,T,Q,RUF,YTT,BLE,ANN,FBT,PL,TRY,RSE,SLF,DTZ,EXE,ISC,ICN,G,INP,PIE,RET,SIM,TID,TCH,ARG,PTH,PERF,SLOT",
       "--ignore=DTZ005,INP001,TCH003,ANN101,ANN102,ANN401,TID252,T201,B905,S101,TRY003,PLR2004"
@@ -61,12 +54,10 @@
       // 88,  // python
       // 100, // rust
     ],
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.11",
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "editor.minimap.enabled": false,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "workbench.colorTheme": "GitHub Dark Default",
     "github.copilot.enable": {
       "*": true,
       "plaintext": false,
