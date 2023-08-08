@@ -33,6 +33,7 @@ A collection of dotfiles, software and configs I use.
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (from GitKraken)
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) (from Yu Zhang)
   - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) (from Matt Bierner)
+  - [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) (from Cardinal90)
 - Python:
   - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (from Microsoft)
   - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) (from Astral Software)
