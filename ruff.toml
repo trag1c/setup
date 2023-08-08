@@ -1,0 +1,3 @@
+select = ["F", "E", "W", "I", "UP", "N", "S", "C", "B", "A", "T", "Q", "RUF", "YTT", "BLE", "ANN", "FBT", "PL", "TRY", "RSE", "SLF", "DTZ", "EXE", "ISC", "ICN", "G", "INP", "PIE", "RET", "SIM", "TID", "TCH", "ARG", "PTH", "PERF", "SLOT"]
+
+ignore = ["INP001", "DTZ005", "TCH003", "ANN101", "ANN102", "ANN401", "TID252", "T201", "B905", "S101", "TRY003", "PLR2004"]
