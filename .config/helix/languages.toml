@@ -20,7 +20,7 @@ name = "python"
 rulers = [88]
 language-servers = ["pyright", "ruff"]
 auto-format = false
-formatter = {command = "black", args = ["--quiet", "-"]}
+formatter = {command = "ruff", args = ["format", "-q", "-"]}
 
 # trying to get pyright to work
 scope = "source.python"
