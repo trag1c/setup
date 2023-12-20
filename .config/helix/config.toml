@@ -1,14 +1,27 @@
-theme = "base16_transparent"
+theme = "gleam-theme"
 
 [editor]
+color-modes = true
 true-color = true
+bufferline = "always"
 idle-timeout = 0
+cursorline = true
+
+[editor.soft-wrap]
+enable = true
 
 [editor.cursor-shape]
 insert = "bar"
+normal = "block"
+select = "underline"
 
 [editor.lsp]
 display-messages = true
+
+[editor.indent-guides]
+render = false
+character = "|"
+skip-levels = 0
 
 [keys.normal]
 "A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
