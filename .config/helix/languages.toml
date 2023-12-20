@@ -1,10 +1,32 @@
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
 [[language]]
 name = "rust"
-scope = "source.rust"
-injection-regex = "rust"
-file-types = ["rs"]
-roots = ["Cargo.toml", "Cargo.lock"]
-auto-format = true
-comment-token = "//"
+rulers = [100]
+auto-format = false
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = {}
+
+[language-server.ruff]
+command = "ruff-lsp"
+config = { settings = { args = ["--select", "F,E,W,I,UP,N,S,C,B,A,T,Q,RUF,YTT,BLE,ANN,FBT,PL,TRY,RSE,SLF,DTZ,EXE,ISC,ICN,G,INP,PIE,RET,SIM,TID,TCH,ARG,PTH,PERF,SLOT", "--ignore", "DTZ005,INP001,TCH003,ANN101,ANN102,ANN401,TID252,T201,B905,S101,TRY003,PLR2004"] } }
+
+[[language]]
+name = "python"
+rulers = [88]
+language-servers = ["pyright", "ruff"]
+auto-format = false
+formatter = {command = "black", args = ["--quiet", "-"]}
+
+# trying to get pyright to work
+scope = "source.python"
+injection-regex = "python"
+file-types = ["py", "pyi", "py3", "pyw", "ptl", ".pythonstartup", ".pythonrc", "SConstruct"]
+shebangs = ["python"]
+roots = ["setup.py", "setup.cfg", "pyproject.toml"]
+comment-token = "#"
 indent = { tab-width = 4, unit = "    " }
-language-server = { command = "rust-analyzer" }
