@@ -12,14 +12,14 @@ A collection of dotfiles, software and configs I use.
 - Code Editors:
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Helix](https://helix-editor.com/)
-- Work Management: [ClickUp](https://clickup.com/) <sub>*(sometimes Apple Notes/Google Sheets)*</sub>
+- Work Management: [Superlist](https://www.superlist.com/)
 - Terminal: [iTerm2](https://iterm2.com/)
 - Project Documentation: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 
 ## VSCode extensions
 **Appearance:**
-- Dark Modern Theme (built-in)
+- [Gleam Theme](https://marketplace.visualstudio.com/items?itemName=trag1c.gleam-theme) (from trag1c)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (from Philipp Kief)
 - [Material Product Icon](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons) (from Philipp Kief)
 
@@ -47,32 +47,39 @@ A collection of dotfiles, software and configs I use.
 
 
 ## Python Tooling
-- [black](https://github.com/psf/black)
 - [poetry](https://python-poetry.org/)
 - [pipx](https://pypa.github.io/pipx/)
 - [ruff](https://beta.ruff.rs/docs/)
-
-For using multiple versions of Python I just have versions 3.8–3.11 installed
-via homebrew and use the `use` command (see `.zshrc`) to "change" between versions
-(credit goes to [@Maneren](https://github.com/Maneren) for coding that script).
+- [pyenv](https://github.com/pyenv/pyenv) (I alias `pyenv shell` as `use` for quick switching :))
 
 
 ## CLI Tools
 - [autojump](https://github.com/wting/autojump)
 - [bat](https://github.com/sharkdp/bat)
 - [brew](https://brew.sh/)
+- [dust](https://github.com/bootandy/dust)
 - [fd](https://github.com/sharkdp/fd)
+- [hexyl](https://github.com/sharkdp/hexyl)
 - [hyperfine](https://github.com/sharkdp/hyperfine)
 - [ipython](https://ipython.readthedocs.io/en/stable/)
+- [just](https://github.com/casey/just)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [tokei](https://github.com/XAMPPRocky/tokei)
+- [typos](https://github.com/crate-ci/typos)
+- [ouch](https://github.com/ouch-org/ouch)
+- [tailspin](https://github.com/bensadeh/tailspin)
+- [difftastic](https://difftastic.wilfred.me.uk/)
 
-I use `zsh` (macOS default) with [Oh My Zsh](https://ohmyz.sh/).
+I use `zsh` with [Oh My Zsh](https://ohmyz.sh/).
 
 
 ## macOS Apps
+- [Al Dente](https://apphousekitchen.com/)
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704)
 - [Clop](https://lowtechguys.com/clop/)
 - [Dropover](https://dropoverapp.com/)
 - [One Thing](https://sindresorhus.com/one-thing)
+- [Maccy](https://maccy.app/)
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 - [Rectangle](https://rectangleapp.com/)
 - [Shottr](https://shottr.cc/)
