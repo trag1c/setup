@@ -25,18 +25,16 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.cursorBlinking": true,
     "debug.console.fontFamily": "JetBrainsMono Nerd Font",
-    "terminal.integrated.env.osx": {
-      "FIG_NEW_SESSION": "1"
-    },
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.inheritEnv": false,
     "vscord.app.name": "Visual Studio Code",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
     "zenMode.centerLayout": false,
-    "ruff.args": [
-      "--select=F,E,W,I,UP,N,S,C,B,A,T,Q,RUF,YTT,BLE,ANN,FBT,PL,TRY,RSE,SLF,DTZ,EXE,ISC,ICN,G,INP,PIE,RET,SIM,TID,TCH,ARG,PTH,PERF,SLOT",
-      "--ignore=DTZ005,INP001,TCH003,ANN101,ANN102,ANN401,TID252,T201,B905,S101,TRY003,PLR2004"
+    "ruff.lint.args": [
+      "--select=F,E,W,I,UP,N,S,C,B,A,Q,RUF,YTT,BLE,ANN,FBT,PL,TRY,RSE,SLF,DTZ,EXE,ISC,ICN,G,PIE,RET,SIM,TID,TCH,ARG,PTH,PERF,SLOT,FURB,LOG,NPY,FLY,PGH,PD,TD,PT,FA,EM",
+      "--ignore=DTZ005,ANN101,ANN102,ANN401,B905,S101,TRY003,PLR2004",
+      "--preview"
     ],
     "codesnap.shutterAction": "copy",
     "codesnap.boxShadow": "",
