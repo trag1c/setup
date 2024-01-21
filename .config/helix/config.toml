@@ -3,7 +3,7 @@ theme = "gleam-theme"
 [editor]
 color-modes = true
 true-color = true
-bufferline = "always"
+bufferline = "multiple"
 idle-timeout = 0
 cursorline = true
 
@@ -17,11 +17,6 @@ select = "underline"
 
 [editor.lsp]
 display-messages = true
-
-[editor.indent-guides]
-render = false
-character = "|"
-skip-levels = 0
 
 [keys.normal]
 "A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
