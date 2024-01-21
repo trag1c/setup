@@ -1,47 +1,29 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export DISPLAY=:0
+export ZSH_THEME="blazz"
 
-# Theme
-ZSH_THEME="af-magic"
-
-# Plugins
 plugins=(
     git
+    poetry
     zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-alias zshconfig="hx ~/.zshrc"
-alias rf="ruff $1 --config ~/ruff.toml"
-alias pip="python -m pip"
-alias ipython="python -m IPython"
-alias isort="python -m isort --profile black"
-alias setup-poetry-env="poetry env use $(which 'python'$(cat ~/.config/python_version))"
-
 export PYTHONSTARTUP="$HOME/.pythonrc.py"
 export GPG_TTY=$(tty)
 
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+alias zshconfig="hx ~/.zshrc"
+alias use="pyenv shell"
+alias rust="evcxr"
+alias ipython="python -m IPython"
 
-use() {
-    echo "$1" > ~/.config/python_version
-}
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
-python() {
-    local version=$(<~/.config/python_version)
-    if [ $version = "3.11" ]; then
-        version="3"
-    fi
-    "python$version" "$@"
-}
-
-# Created by `pipx` on 2023-06-14 12:07:35
+# pipx
 export PATH="$PATH:/Users/trag1c/.local/bin"
+
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
