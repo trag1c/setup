@@ -1,0 +1,114 @@
+{
+    "editor.letterSpacing": -0.25,
+    "editor.fontWeight": "500",
+    "terminal.integrated.fontFamily": "Annotation Mono, JetBrainsMono Nerd Font",
+    "editor.fontFamily": "Annotation Mono",
+    "debug.console.fontFamily": "Annotation Mono",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.fontSize": 16,
+    "editor.rulers": [
+        80, // markdown
+        88, // python
+        100 // rust
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control.flow",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "markup.underline",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "keyword.controlFlow": {
+                "fontStyle": ""
+            }
+        }
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.ruff": "explicit"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "git.confirmSync": false,
+    "gitlens.views.branches.branches.layout": "list",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "telemetry.telemetryLevel": "crash",
+    "terminal.external.osxExec": "Ghostty.app",
+    "terminal.integrated.cursorBlinking": true,
+    "debug.toolBarLocation": "commandCenter",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.inheritEnv": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "zenMode.centerLayout": false,
+    "terminal.integrated.cursorStyle": "line",
+    "explorer.compactFolders": false,
+    "workbench.tree.indent": 16,
+    "errorLens.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.guides.indentation": false,
+    "editor.cursorSurroundingLines": 5,
+    "editor.inlineSuggest.enabled": true,
+    "screencastMode.fontSize": 28,
+    "screencastMode.mouseIndicatorSize": 30,
+    "editor.renderLineHighlight": "all",
+    "editor.renderFinalNewline": "dimmed",
+    "python.languageServer": "Pylance",
+    "python.analysis.autoFormatStrings": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.minimap.autohide": true,
+    "git.autofetch": true,
+    "workbench.editorAssociations": {
+        "*.mov": "default"
+    },
+    "rust-analyzer.check.command": "clippy",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "rust": true,
+        "gleam": false
+    },
+    "window.zoomLevel": 1,
+    "editor.stickyScroll.enabled": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.bracketPairColorization.enabled": false,
+    "markdown.extension.toc.updateOnSave": false,
+    "python.terminal.activateEnvironment": false,
+    "python.analysis.typeCheckingMode": "standard",
+    "editor.formatOnSave": true,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Rosé Pine Dawn (no italics)",
+    "workbench.preferredDarkColorTheme": "Kanagawa Wave",
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "python.analysis.typeEvaluation.disableBytesTypePromotions": true,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info",
+        "hint"
+    ],
+    "git.enableCommitSigning": true
+}

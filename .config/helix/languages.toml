@@ -1,0 +1,39 @@
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[[language]]
+name = "markdown"
+rulers = [80]
+
+[[language]]
+name = "rust"
+rulers = [100]
+auto-format = false
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = {}
+
+[language-server.ruff]
+command = "uv"
+args = ["run", "ruff", "server"]
+
+[[language]]
+name = "python"
+rulers = [88]
+language-servers = ["pyright", "ruff"]
+auto-format = false
+scope = "source.python"
+injection-regex = "python"
+file-types = ["py", "pyi", ".pythonrc"]
+roots = ["setup.py", "setup.cfg", "pyproject.toml", "."]
+comment-token = "#"
+
+[language.formatter]
+command = "uv"
+args = ["run", "ruff", "format", "-q", "-"]
+
+[language.indent]
+tab-width = 4
+unit = "    "
