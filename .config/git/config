@@ -1,0 +1,31 @@
+[user]
+	email = dev@jakubr.me
+	name = trag1c
+	signingkey = /Users/trag1c/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[alias]
+	history = log --decorate --graph --oneline
+[core]
+	excludesFile = ~/.config/git/ignore
+	pager = delta
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed-signers
+[status]
+	branch = true
+	showStash = true
+[pull]
+	rebase = true
+[branch]
+	sort = -committerdate
+[tag]
+	sort = -taggerdate
+[push]
+    autoSetupRemote = true
+    default = current
+[url "https://github.com/"]
+	insteadOf = "gh:"

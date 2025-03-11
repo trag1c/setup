@@ -1,0 +1,18 @@
+auto-update = download
+
+font-family = Poshevka
+font-codepoint-map = U+1F1E6-U+1F1FF = Apple Color Emoji
+font-size = 16
+font-thicken = true
+
+macos-titlebar-style = hidden
+macos-icon = xray
+
+theme = light:flexoki-light,dark:carbonfox
+
+window-colorspace = display-p3
+window-padding-x = 10
+window-padding-y = 10
+window-padding-color = extend
+
+unfocused-split-opacity = 1
