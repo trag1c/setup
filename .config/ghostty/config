@@ -1,0 +1,17 @@
+auto-update = download
+
+font-family = Annotation Mono
+font-size = 16
+font-thicken = true
+
+macos-titlebar-style = hidden
+macos-icon = xray
+
+theme = light:rose-pine-dawn,dark:Kanagawa Wave
+
+window-colorspace = display-p3
+window-padding-x = 15
+window-padding-y = 15
+window-padding-color = extend
+
+unfocused-split-opacity = 1
