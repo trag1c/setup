@@ -1,0 +1,28 @@
+[buildPlans.Poshevka]
+family = "Poshevka"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.Poshevka.variants.design]
+l = "tailed-serifed"
+capital-eszet = "rounded-serifless"
+lower-eth = "curly-bar"
+capital-thorn = "serifless"
+lower-delta = "flat-top"
+lower-lambda = "tailed-turn"
+lower-chi = "straight-bilateral-motion-serifed"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+tilde = "low"
+asterisk = "penta-high"
+caret = "medium"
+lig-equal-chain = "with-notch"
+lig-double-arrow-bar = "without-notch"
+
+[buildPlans.Poshevka.ligations]
+inherits = "dlig"
+disables = ["brst", "slash-asterisk", "brace-bar", "brack-bar"] 
