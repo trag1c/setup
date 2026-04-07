@@ -1,0 +1,51 @@
+[theme]
+light = "xcode_light"
+dark = "xcode_dark"
+
+[editor]
+color-modes = true
+true-color = true
+bufferline = "multiple"
+idle-timeout = 10
+cursorline = true
+insert-final-newline = false
+indent-guides.render = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
+
+[editor.statusline]
+left = [
+    "mode",
+    "spinner",
+    "file-name",
+    "file-modification-indicator",
+    "spacer",
+    "diagnostics",
+]
+right = ["version-control", "selections", "position", "file-encoding"]
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-messages = true
+
+[keys.normal]
+"A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+"A-up" = [
+    "extend_to_line_bounds",
+    "delete_selection",
+    "move_line_up",
+    "paste_before",
+]
+"pagedown" = "half_page_down"
+
+[keys.normal.space]
+"B" = ":echo %sh{git blame --date=short -L %{cursor_line},+1 %{buffer_name} | cut -d' ' -f1-4 | sed 's/$/)/g'}"

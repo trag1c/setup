@@ -1,0 +1,4 @@
+--map-syntax "justfile:Makefile"
+--theme GitHub
+--decorations never
+--paging never

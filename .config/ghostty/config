@@ -1,0 +1,23 @@
+auto-update = download
+auto-update-channel = tip
+
+command = /opt/homebrew/bin/nu
+
+font-family = Poshevka
+font-codepoint-map = U+1F1E6-U+1F1FF,U+23F0,U+26A1 = Apple Color Emoji
+font-size = 16
+font-thicken = true
+
+theme = light:Modus Operandi,dark:Modus Vivendi
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+window-colorspace = display-p3
+window-padding-x = 5
+window-padding-y = 5
+window-padding-color = extend
+
+keybind = cmd+,=text:ghostty +edit-config\n
+keybind = shift+enter=text:\n
+scrollback-limit = 1000000000
+unfocused-split-opacity = 1
